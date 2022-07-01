@@ -37,12 +37,10 @@ html {
 }
 
 .me {
-
-
     font-size: 1em;
-    padding-left: 200px;
+    padding-left: 350px;
     padding-top: 100px;
-    opacity: 60%;
+    opacity: 0.1;
 }
 
 
@@ -131,14 +129,26 @@ nav li a:hover {
 
 .masthead h2 {
     font-size: 3em;
+    opacity: 0.4;
     padding-right: 350px;
-    
+    padding-top: 2em;
+
+
 }
 
-.hover2:hover{
+.hover2:hover {
 
-color: rgba(0, 255, 255, 0.459) !important;
+    color: rgba(0, 255, 255, 0.459) !important;
 
+    transition: all 1s ease-out;
+}
+
+.hover2:hover pre {
+    transition: 0.7s;
+    display: block;
+    color: rgba(255, 254, 254, 0.979) !important;
+
+    opacity: 1;
 }
 
 a {

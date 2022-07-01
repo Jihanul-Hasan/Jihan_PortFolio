@@ -15,6 +15,8 @@
   <!-- Swipper: https://swiperjs.com/demos -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -134,7 +136,7 @@
 
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
-      <div class="container px-4 px-lg-5">
+      <div class="container justify-content-center px-4 px-lg-5">
         <!-- Featured Project Row-->
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
           <div class="featured-text text-center text-lg-left">
@@ -197,69 +199,95 @@
 
 
 
-
-    <section class="" style="text-align: center;;" id="Portfolio">
+    <!-- PORTFOLIO CONTENT -->
+    <section class="" style="text-align: center;" id="portfolio">
       <div class="btn-group filter-button-group" style="margin-bottom:3em" role="group" aria-label="Basic example">
         <button type="button" data-filter=".programming" class="btn btn-primary">Programming</button>
-        <button type="button" class="btn btn-primary">Photography</button>
-        <button type="button" class="btn btn-primary">Vieography</button>
-        <button type="button" class="btn btn-primary">Music</button>
+        <button type="button" data-filter=".programming" class="button-28 btn btn-primary ">Photography</button>
+        <button type="button" data-filter=".programming" class="btn btn-primary">Vieography</button>
+        <button type="button" data-filter=".programming" class="btn btn-primary">Music</button>
       </div>
-      </div>
+
 
       <!-- ALL IMAGES -->
 
-      <div class="allitemsclass justify-content-center g-4" id="allitems">
-
-
-        <div class=" programming" data-aos="fade-up" data-aos-delay="100">
-          <div class="product-item">
-            <div class="product-img">
-              <img src="img/portfolio_pics/pic1.jpg" class="img-fluid d-block mx-auto">
-            </div>
-          </div>
-        </div>
-
-        <div class="" data-aos="fade-up" data-aos-delay="100">
-          <div class="product-item">
-            <div class="product-img">
-              <img src="img/portfolio_pics/pic1.jpg" class="img-fluid d-block mx-auto">
-            </div>
-          </div>
-        </div>
-
-
-      </div>
+      
 
 
     </section><!-- End Portfolio Section -->
 
+
+    <div class="allimage" id="allitems">
+
+
+      <div class="" id="product-list" data-aos="zoom-in">
+        <div class="col-lg-4 col-md-6 programming">
+          <div class="product-item">
+            <div class="product-img">
+              <img src="img/portfolio_pics/pic1.jpg" class="portimg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="" id="product-list" data-aos="zoom-in">
+        <div class="col-lg-4 col-md-6 programming">
+          <div class="product-item">
+            <div class="product-img">
+              <img src="img/portfolio_pics/pic2.png" class="portimg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum labore laborum numquam, unde at itaque
       magnam voluptatem soluta animi aspernatur ducimus nemo omnis ipsa veniam doloremque debitis architecto enim
       dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam est cum exercitationem hic vel autem
       corporis ullam consectetur, numquam soluta odit veritatis? Magnam atque doloribus voluptatum, hic neque earum.
     </h1>
 
-    <section class="socials">
-      <div class="social d-flex justify-content-center">
-        <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-        <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-        <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+    <footer class="bg-dark text-center text-white ">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0 justify-content-center">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><span
+              class="fab fa-instagram"></span></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
       </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <h4>Jihanul Hasan</h4>
       </div>
-    </section>
-
-
-
-
-
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-      <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div>
+      <!-- Copyright -->
     </footer>
 
 
-    </div>
+
+    <!--------------------------------------->
 
     <script>
       AOS.init();

@@ -16,7 +16,7 @@
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -25,27 +25,25 @@ html{
 }
 
 .myfont2 {
-    font-weight: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
 }
 
-.myfont3{
+.myfont3 {
     font-family: 'Ephesis', cursive;
 }
 
-.me{
+.me {
     font-size: 2em;
     margin-top: 300px;
-  opacity: 60%;
+    opacity: 60%;
 }
 
 
-#page-top{
+#page-top {
     background: linear-gradient(to bottom, rgb(36, 36, 36) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(54, 1, 1, 0.8) 100%);
 }
 
-.bottom-margin{
-  
-}
+.bottom-margin {}
 
 .sidebar {
     margin: 0;
@@ -62,7 +60,8 @@ li {
 
 
 }
-nav div ul{
+
+nav div ul {
     margin-left: 0;
 }
 
@@ -92,8 +91,8 @@ nav li a {
 nav li a:hover {
     color: #000;
     background-color: rgb(189, 180, 180);
-   
-   
+
+
 
 }
 
@@ -136,11 +135,11 @@ a {
 
 .about-section {
     margin-bottom: 15em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
     border-radius: 5px;
-   
+
 
 
 
@@ -157,6 +156,18 @@ a {
     margin: 0px;
 }
 
+.swiper-pagination-bullet-active {
+
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.swiper-button-prev {
+    margin: 2em !important;
+}
+
+.swiper-button-next {
+    margin: 2em !important
+}
 
 /* ABOUT END */
 
@@ -165,7 +176,7 @@ a {
 
 .projects-section {
     margin-bottom: 15em;
-     margin-left: 1em;
+    margin-left: 1em;
     margin-right: 1em;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 
@@ -212,12 +223,12 @@ a {
 
 
 /* This is for the bottom padding */
-#resume {    
+#resume {
 
     padding-bottom: 16rem;
     margin-left: 10em;
     margin-right: 1em;
-    
+
 
 }
 
@@ -228,4 +239,32 @@ a {
     border-radius: 2px;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
     border: 2px solid rgb(61, 61, 61);
+}
+
+/* RESUME ENDS */
+
+/* PROTFOLIO PICS START */
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+.product-img {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(211, 211, 211);
+
+}
+
+
+#Portfolio .allitemsclass {
+    display: flex;
+    justify-content: space-around;
+}
+#Portfolio .allitemsclass .product-item{
+    margin: 3em;
 }
